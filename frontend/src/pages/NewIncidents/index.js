@@ -29,7 +29,6 @@ export default function NewIncident() {
                     Authorization: ongId,
                 }
             });
-            alert('Caso registado com sucesso!');
             history.push('/profile');
         } catch (error) {
             alert('Whoops, não conseguimos registar o teu caso. Tenta de novo! (:');            
